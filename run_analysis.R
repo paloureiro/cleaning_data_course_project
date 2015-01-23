@@ -1,8 +1,6 @@
 library(dplyr)
 library(data.table)
 
-setwd("C:/Users/pedro/Documents/GitHub//cleaning_data_course_project/")
-
 train <- read.table("./train/X_train.txt")
 test <- read.table("./test/X_test.txt")
 merged_data <- tbl_df(rbind(train,test))
