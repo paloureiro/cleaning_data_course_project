@@ -1,5 +1,5 @@
-| Variable               | Definition |
-| ---------------------- | ----------: |
+| Variable               | Definition | Domain | Statistic |
+| ---------------------- | :---------:|
 | time_BodyAcc_mean_X
 | time_BodyAcc_mean_Y
 | time_BodyAcc_mean_Z
