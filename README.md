@@ -4,7 +4,7 @@ A full description of the data is available at the site:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The script is called run_analysis.R: it gets the raw data derived from the measurements and organizes it into a more tidy, human-readable table (tidy_results.txt).
-The first part of the script is responsible for reading the data and merging the train and test datasets in a dataset.
+The first part of the script is responsible for reading the data and merging the train and test datasets in a single dataset.
 ``` R
 train <- read.table("./train/X_train.txt")
 test <- read.table("./test/X_test.txt")
