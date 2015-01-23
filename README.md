@@ -2,6 +2,7 @@
 
 A full description of the data is available at the site:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+The experimental data is organized in three directories (main and two subdirectories - /test and /train)
 
 The script is called run_analysis.R: it gets the raw data derived from the measurements and organizes it into a more tidy, human-readable table (tidy_results.txt).
 The first part of the script is responsible for reading the data and merging the train and test datasets in a single dataset.
