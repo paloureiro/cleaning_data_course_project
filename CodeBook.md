@@ -1,68 +1,68 @@
 | Variable Name            | Definition | Domain | Statistic |
-| ----------------------   | :---------:| :----: | --------: |
-| time_BodyAcc_mean_X      |            |        |mean       |
-| time_BodyAcc_mean_Y      |            |        |mean       |
-| time_BodyAcc_mean_Z      |            |        | mean      |   
-| time_GravityAcc_mean_X   |            |        | mean      |  
-| time_GravityAcc_mean_Y   |            |        | mean      |
-| time_GravityAcc_mean_Z   |            |        | mean      |
-| time_BodyAccJerk_mean_X  |            |        | mean      |
-| time_BodyAccJerk_mean_Y  |            |        | mean      |
-| time_BodyAccJerk_mean_Z  |            |        | mean      |
-| time_BodyGyro_mean_X     |            |        | mean      |
-| time_BodyGyro_mean_Y     |            |        | mean      |
-| time_BodyGyro_mean_Z     |            |        | mean      |
-| time_BodyGyroJerk_mean_X |            |        | mean      |
-| time_BodyGyroJerk_mean_Y |            |        | mean      |           |
-| time_BodyGyroJerk_mean_Z |            |        |           |
-| time_BodyAccMag_mean     |            |        |           |
-| time_GravityAccMag_mean  |            |        |           |
-| time_BodyAccJerkMag_mean |            |        |           |
-| time_BodyGyroMag_mean    |            |        |           |
-| time_BodyGyroJerkMag_mean|            |        |           |
-| freq_BodyAcc_mean_X      |            |        |           |
-| freq_BodyAcc_mean_Y      |            |        |           |
-| freq_BodyAcc_mean_Z      |            |        |           |
-| freq_BodyAccJerk_mean_X  |            |        |           |
-| freq_BodyAccJerk_mean_Y  |            |        |           |
-| freq_BodyAccJerk_mean_Z  |            |        |           |
-| freq_BodyGyro_mean_X     |            |        |           |
-| freq_BodyGyro_mean_Y     |            |        |           |
-| freq_BodyGyro_mean_Z     |            |        |           |
-| freq_BodyAccMag_mean     |            |        |           |
-| freq_BodyAccJerkMag_mean |            |        |           |
-| freq_BodyGyroMag_mean    |            |        |           |
-| freq_BodyGyroJerkMag_mean|            |        |           |
-| time_BodyAcc_std_X       |            |        |           | 
-| time_BodyAcc_std_Y       |            |        |           |
-| time_BodyAcc_std_Z       |            |        |           |
-| time_GravityAcc_std_X    |            |        |           |
-| time_GravityAcc_std_Y    |            |        |           |
-| time_GravityAcc_std_Z    |            |        |           |
-| time_BodyAccJerk_std_X   |            |        |           |
-| time_BodyAccJerk_std_Y   |            |        |           |
-| time_BodyAccJerk_std_Z   |            |        |           |
-| time_BodyGyro_std_X      |            |        |           |
-| time_BodyGyro_std_Y      |            |        |           |
-| time_BodyGyro_std_Z      |            |        |           |
-| time_BodyGyroJerk_std_X  |            |        |           |
-| time_BodyGyroJerk_std_Y  |            |        |           |
-| time_BodyGyroJerk_std_Z  |            |        |           |
-| time_BodyAccMag_std      |            |        |           |
-| time_GravityAccMag_std   |            |        |           |
-| time_BodyAccJerkMag_std  |            |        |           | 
-| time_BodyGyroMag_std     |            |        |           |
-| time_BodyGyroJerkMag_std |            |        |           |  
-| freq_BodyAcc_std_X       |            |        |           |
-| freq_BodyAcc_std_Y       |            |        |           |
-| freq_BodyAcc_std_Z       |            |        |           |
-| freq_BodyAccJerk_std_X   |            |        |           |
-| freq_BodyAccJerk_std_Y   |            |        |           |
-| freq_BodyAccJerk_std_Z   |            |        |           |
-| freq_BodyGyro_std_X      |            |        |           |
-| freq_BodyGyro_std_Y      |            |        |           |
-| freq_BodyGyro_std_Z      |            |        |           |
-| freq_BodyAccMag_std      |            |        |           | 
-| freq_BodyAccJerkMag_std  |            |        |           |
-| freq_BodyGyroMag_std     |            |        |           |
-| freq_BodyGyroJerkMag_std |            |        |           |
+| ----------------------   | :---------:| :----: | :-------: |
+| time_BodyAcc_mean_X      |            |   time|mean       |
+| time_BodyAcc_mean_Y      |            | time       |mean       |
+| time_BodyAcc_mean_Z      |            | time       | mean      |   
+| time_GravityAcc_mean_X   |            | time       | mean      |  
+| time_GravityAcc_mean_Y   |            | time       | mean      |
+| time_GravityAcc_mean_Z   |            |time        | mean      |
+| time_BodyAccJerk_mean_X  |            | time       | mean      |
+| time_BodyAccJerk_mean_Y  |            |  time      | mean      |
+| time_BodyAccJerk_mean_Z  |            |time        | mean      |
+| time_BodyGyro_mean_X     |            | time       | mean      |
+| time_BodyGyro_mean_Y     |            |  time      | mean      |
+| time_BodyGyro_mean_Z     |            |  time      | mean      |
+| time_BodyGyroJerk_mean_X |            | time       | mean      |
+| time_BodyGyroJerk_mean_Y |            | time       | mean      |           |
+| time_BodyGyroJerk_mean_Z |            |  time      |mean       |
+| time_BodyAccMag_mean     |            |  time      |    mean   |
+| time_GravityAccMag_mean  |            | time       |      mean |
+| time_BodyAccJerkMag_mean |            |  time      |mean           |
+| time_BodyGyroMag_mean    |            | time       |meam           |
+| time_BodyGyroJerkMag_mean|            | time       |mean           |
+| freq_BodyAcc_mean_X      |            | frequency       |mean           |
+| freq_BodyAcc_mean_Y      |            | frequency       |mean           |
+| freq_BodyAcc_mean_Z      |            |  frequency  |  mean         |
+| freq_BodyAccJerk_mean_X  |            |  frequency      |  mean         |
+| freq_BodyAccJerk_mean_Y  |            | frequency       |  mean         |
+| freq_BodyAccJerk_mean_Z  |            |  frequency      |  mean         |
+| freq_BodyGyro_mean_X     |            |   frequency     |  mean         |
+| freq_BodyGyro_mean_Y     |            | frequency       |  mean     |
+| freq_BodyGyro_mean_Z     |            | frequency       |  mean         |
+| freq_BodyAccMag_mean     |            | frequency       |  mean         |
+| freq_BodyAccJerkMag_mean |            | frequency       |  mean         |
+| freq_BodyGyroMag_mean    |            | frequency       |  mean         |
+| freq_BodyGyroJerkMag_mean|            | frequency       |  mean         |
+| time_BodyAcc_std_X       |            |   time     |  standard deviation         | 
+| time_BodyAcc_std_Y       |            | time       |    standard deviation       |
+| time_BodyAcc_std_Z       |            | time       |    standard deviation       |
+| time_GravityAcc_std_X    |            | time       |           standard deviation|
+| time_GravityAcc_std_Y    |            | time       |    standard deviation       |
+| time_GravityAcc_std_Z    |            | time       |    standard deviation       |
+| time_BodyAccJerk_std_X   |            | time       |      standard deviation     |
+| time_BodyAccJerk_std_Y   |            | time       |  standard deviation         |
+| time_BodyAccJerk_std_Z   |            | time       |standard deviation           |
+| time_BodyGyro_std_X      |            | time       |standard deviation           |
+| time_BodyGyro_std_Y      |            | time       |standard deviation           |
+| time_BodyGyro_std_Z      |            | time       |standard deviation           |
+| time_BodyGyroJerk_std_X  |            | time       |standard deviation           |
+| time_BodyGyroJerk_std_Y  |            | time       |  standard deviation         |
+| time_BodyGyroJerk_std_Z  |            | time       |standard deviation           |
+| time_BodyAccMag_std      |            | time       |standard deviation           |
+| time_GravityAccMag_std   |            | time       |standard deviation           |
+| time_BodyAccJerkMag_std  |            | time       |standard deviation           | 
+| time_BodyGyroMag_std     |            | time       |standard deviation           |
+| time_BodyGyroJerkMag_std |            | time       |standard deviation           |  
+| freq_BodyAcc_std_X       |            | frequency       |standard deviation           |
+| freq_BodyAcc_std_Y       |            | frequency       |standard deviation           |
+| freq_BodyAcc_std_Z       |            | frequency       |standard deviation           |
+| freq_BodyAccJerk_std_X   |            | frequency       |standard deviation           |
+| freq_BodyAccJerk_std_Y   |            | frequency       |standard deviation           |
+| freq_BodyAccJerk_std_Z   |            | frequency       |standard deviation           |
+| freq_BodyGyro_std_X      |            | frequency       |standard deviation           |
+| freq_BodyGyro_std_Y      |            | frequency       |standard deviation           |
+| freq_BodyGyro_std_Z      |            | frequency       |standard deviation           |
+| freq_BodyAccMag_std      |            | frequency       |standard deviation           | 
+| freq_BodyAccJerkMag_std  |            | frequency       |standard deviation           |
+| freq_BodyGyroMag_std     |            | frequency       |standard deviation           |
+| freq_BodyGyroJerkMag_std |            | frequency       |standard deviation           |
