@@ -10,7 +10,7 @@ train <- read.table("./train/X_train.txt")
 test <- read.table("./test/X_test.txt")
 merged_data <- tbl_df(rbind(train,test))
 ```
-The original table does not contain column headers to identify the measurements. Those are read from another file (features.txt), cleaned up and merged to the table:
+The original table does not contain column headers to identify the measurements. Those are read from another file (features.txt) that is cleaned up by a series of substitutions:
 ```R
 features <- read.table("features.txt",colClasses=c("numeric","character"))
 names(features) <- c("index","measurement")
@@ -29,7 +29,7 @@ untidy_names_filtered_data <- gsub("BodyBody","Body",untidy_names_filtered_data,
 tidy_names_filtered_data <- gsub("()","",untidy_names_filtered_data,fixed=T)
 colnames(filtered_data) <- as.character(tidy_names_filtered_data)
 ```
-Similarly, the script reads the activities carried out by the subjects enrolled in the study and the identity code specific for each subject and merges this information with the previous table. 
+Similarly, the script reads the activities carried out by the subjects enrolled in the study and the identity code specific for each subject. 
 ```R
 train_activity <- read.table("./train/y_train.txt")
 test_activity <- read.table("./test/y_test.txt")
@@ -41,5 +41,15 @@ test_subjects <- read.table("./test/subject_test.txt")
 merged_subjects_dt <- data.table(rbind(train_subjects,test_subjects))
 setnames(merged_subjects_dt,"V1","subjects")
 ```
+The activities are in a numerical code. The script relates each number to a human-readable activity.
+```R
+merged_activity_dt[,activities := as.character(activities)] [activities == "1", activities := "walking"]
+merged_activity_dt[,activities := as.character(activities)] [activities == "2", activities := "walking_upstairs"]
+merged_activity_dt[,activities := as.character(activities)] [activities == "3", activities := "walking_downstairs"]
+merged_activity_dt[,activities := as.character(activities)] [activities == "4", activities := "sitting"]
+merged_activity_dt[,activities := as.character(activities)] [activities == "5", activities := "standing"]
+merged_activity_dt[,activities := as.character(activities)] [activities == "6", activities := "laying"]
+```
+
 In this way, a reader can identify in a glance the subject and the kind of physical activity that corresponds to the accelerometer data.
 
