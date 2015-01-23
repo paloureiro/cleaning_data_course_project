@@ -1,7 +1,7 @@
 | Variable Name            | Definition | Domain | Statistic |
 | ----------------------   | :---------:| :----: | --------: |
-| time_BodyAcc_mean_X      |            |        | mean      |
-| time_BodyAcc_mean_Y      |            |        | mean      |
+| time_BodyAcc_mean_X      |            |        |mean       |
+| time_BodyAcc_mean_Y      |            |        |mean       |
 | time_BodyAcc_mean_Z      |            |        | mean      |   
 | time_GravityAcc_mean_X   |            |        | mean      |  
 | time_GravityAcc_mean_Y   |            |        | mean      |
