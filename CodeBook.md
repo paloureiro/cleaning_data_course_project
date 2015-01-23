@@ -1,68 +1,68 @@
 | Variable               | Definition |
 | ---------------------- | ----------: |
-time_BodyAcc_mean_X
-time_BodyAcc_mean_Y
-time_BodyAcc_mean_Z
-time_GravityAcc_mean_X
-time_GravityAcc_mean_Y
-time_GravityAcc_mean_Z
-time_BodyAccJerk_mean_X
-time_BodyAccJerk_mean_Y
-time_BodyAccJerk_mean_Z
-time_BodyGyro_mean_X
-time_BodyGyro_mean_Y
-time_BodyGyro_mean_Z
-time_BodyGyroJerk_mean_X
-time_BodyGyroJerk_mean_Y
-time_BodyGyroJerk_mean_Z
-time_BodyAccMag_mean
-time_GravityAccMag_mean
-time_BodyAccJerkMag_mean
-time_BodyGyroMag_mean
-time_BodyGyroJerkMag_mean
-freq_BodyAcc_mean_X
-freq_BodyAcc_mean_Y
-freq_BodyAcc_mean_Z
-freq_BodyAccJerk_mean_X
-freq_BodyAccJerk_mean_Y
-freq_BodyAccJerk_mean_Z
-freq_BodyGyro_mean_X
-freq_BodyGyro_mean_Y
-freq_BodyGyro_mean_Z
-freq_BodyAccMag_mean
-freq_BodyAccJerkMag_mean
-freq_BodyGyroMag_mean
-freq_BodyGyroJerkMag_mean
-time_BodyAcc_std_X
-time_BodyAcc_std_Y
-time_BodyAcc_std_Z
-time_GravityAcc_std_X
-time_GravityAcc_std_Y
-time_GravityAcc_std_Z
-time_BodyAccJerk_std_X
-time_BodyAccJerk_std_Y
-time_BodyAccJerk_std_Z
-time_BodyGyro_std_X
-time_BodyGyro_std_Y
-time_BodyGyro_std_Z
-time_BodyGyroJerk_std_X
-time_BodyGyroJerk_std_Y
-time_BodyGyroJerk_std_Z
-time_BodyAccMag_std
-time_GravityAccMag_std
-time_BodyAccJerkMag_std
-time_BodyGyroMag_std
-time_BodyGyroJerkMag_std
-freq_BodyAcc_std_X
-freq_BodyAcc_std_Y
-freq_BodyAcc_std_Z
-freq_BodyAccJerk_std_X
-freq_BodyAccJerk_std_Y
-freq_BodyAccJerk_std_Z
-freq_BodyGyro_std_X
-freq_BodyGyro_std_Y
-freq_BodyGyro_std_Z
-freq_BodyAccMag_std
-freq_BodyAccJerkMag_std
-freq_BodyGyroMag_std
-freq_BodyGyroJerkMag_std
+| time_BodyAcc_mean_X
+| time_BodyAcc_mean_Y
+| time_BodyAcc_mean_Z
+| time_GravityAcc_mean_X
+| time_GravityAcc_mean_Y
+| time_GravityAcc_mean_Z
+| time_BodyAccJerk_mean_X
+| time_BodyAccJerk_mean_Y
+| time_BodyAccJerk_mean_Z
+| time_BodyGyro_mean_X
+| time_BodyGyro_mean_Y
+| time_BodyGyro_mean_Z
+| time_BodyGyroJerk_mean_X
+| time_BodyGyroJerk_mean_Y
+| time_BodyGyroJerk_mean_Z
+| time_BodyAccMag_mean
+| time_GravityAccMag_mean
+| time_BodyAccJerkMag_mean
+| time_BodyGyroMag_mean
+| time_BodyGyroJerkMag_mean
+| freq_BodyAcc_mean_X
+| freq_BodyAcc_mean_Y
+| freq_BodyAcc_mean_Z
+| freq_BodyAccJerk_mean_X
+| freq_BodyAccJerk_mean_Y
+| freq_BodyAccJerk_mean_Z
+| freq_BodyGyro_mean_X
+| freq_BodyGyro_mean_Y
+| freq_BodyGyro_mean_Z
+| freq_BodyAccMag_mean
+| freq_BodyAccJerkMag_mean
+| freq_BodyGyroMag_mean
+| freq_BodyGyroJerkMag_mean
+| time_BodyAcc_std_X
+| time_BodyAcc_std_Y
+| time_BodyAcc_std_Z
+| time_GravityAcc_std_X
+| time_GravityAcc_std_Y
+| time_GravityAcc_std_Z
+| time_BodyAccJerk_std_X
+| time_BodyAccJerk_std_Y
+| time_BodyAccJerk_std_Z
+| time_BodyGyro_std_X
+| time_BodyGyro_std_Y
+| time_BodyGyro_std_Z
+| time_BodyGyroJerk_std_X
+| time_BodyGyroJerk_std_Y
+| time_BodyGyroJerk_std_Z
+| time_BodyAccMag_std
+| time_GravityAccMag_std
+| time_BodyAccJerkMag_std
+| time_BodyGyroMag_std
+| time_BodyGyroJerkMag_std
+| freq_BodyAcc_std_X
+| freq_BodyAcc_std_Y
+| freq_BodyAcc_std_Z
+| freq_BodyAccJerk_std_X
+| freq_BodyAccJerk_std_Y
+| freq_BodyAccJerk_std_Z
+| freq_BodyGyro_std_X
+| freq_BodyGyro_std_Y
+| freq_BodyGyro_std_Z
+| freq_BodyAccMag_std
+| freq_BodyAccJerkMag_std
+| freq_BodyGyroMag_std
+| freq_BodyGyroJerkMag_std
