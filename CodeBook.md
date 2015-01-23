@@ -1,19 +1,19 @@
 | Variable Name            | Definition | Domain | Statistic |
 | ----------------------   | :---------:| :----: | --------: |
-| time_BodyAcc_mean_X      |            |        |           |
-| time_BodyAcc_mean_Y      |            |        |           |
-| time_BodyAcc_mean_Z      |            |        |           |   
-| time_GravityAcc_mean_X   |            |        |           |  
-| time_GravityAcc_mean_Y   |            |        |           |
-| time_GravityAcc_mean_Z   |            |        |           |
-| time_BodyAccJerk_mean_X  |            |        |           |
-| time_BodyAccJerk_mean_Y  |            |        |           |
-| time_BodyAccJerk_mean_Z  |            |        |           |
-| time_BodyGyro_mean_X     |            |        |           |
-| time_BodyGyro_mean_Y     |            |        |           |
-| time_BodyGyro_mean_Z     |            |        |           |
-| time_BodyGyroJerk_mean_X |            |        |           |
-| time_BodyGyroJerk_mean_Y |            |        |           |
+| time_BodyAcc_mean_X      |            |        | mean      |
+| time_BodyAcc_mean_Y      |            |        | mean      |
+| time_BodyAcc_mean_Z      |            |        | mean      |   
+| time_GravityAcc_mean_X   |            |        | mean      |  
+| time_GravityAcc_mean_Y   |            |        | mean      |
+| time_GravityAcc_mean_Z   |            |        | mean      |
+| time_BodyAccJerk_mean_X  |            |        | mean      |
+| time_BodyAccJerk_mean_Y  |            |        | mean      |
+| time_BodyAccJerk_mean_Z  |            |        | mean      |
+| time_BodyGyro_mean_X     |            |        | mean      |
+| time_BodyGyro_mean_Y     |            |        | mean      |
+| time_BodyGyro_mean_Z     |            |        | mean      |
+| time_BodyGyroJerk_mean_X |            |        | mean      |
+| time_BodyGyroJerk_mean_Y |            |        | mean      |           |
 | time_BodyGyroJerk_mean_Z |            |        |           |
 | time_BodyAccMag_mean     |            |        |           |
 | time_GravityAccMag_mean  |            |        |           |
