@@ -52,8 +52,7 @@ merged_activity_dt[,activities := as.character(activities)] [activities == "4", 
 merged_activity_dt[,activities := as.character(activities)] [activities == "5", activities := "standing"]
 merged_activity_dt[,activities := as.character(activities)] [activities == "6", activities := "laying"]
 ```
-All the tables are merged in a "tidy" dataset and grouped according to the subject and type of activity.
-In this way, a reader can identify in a glance to which subject/activity corresponds the accelerometer data.
+All the tables are merged in a "tidy" dataset and grouped according to the subject and type of activity. The average of the values are given. In this way, a reader can identify in a glance to which subject/activity corresponds the accelerometer data.
 ```R
 tidy_data <- cbind(filtered_data_dt,merged_activity_dt,merged_subjects_dt)
 tidy_data$activities <- as.factor(tidy_data$activities)
