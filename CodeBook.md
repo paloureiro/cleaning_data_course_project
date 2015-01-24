@@ -74,3 +74,5 @@ The features selected for this database come from the accelerometer and gyroscop
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (time_BodyAccJerk_XYZ and time_BodyGyroJerk_XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (time_BodyAccMag, time_GravityAccMag, time_BodyAccJerkMag, time_BodyGyroMag, time_BodyGyroJerkMag). 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing freq_BodyAcc_XYZ, freq_BodyAccJerk_XYZ, freq_BodyGyro_XYZ, freq_BodyAccJerkMag, freq_BodyGyroMag, freq_BodyGyroJerkMag.  
+
+The displayed measurements are dimensionless, as they have been normalized by the authors of the study.
