@@ -12,7 +12,7 @@ train <- read.table("./train/X_train.txt")
 test <- read.table("./test/X_test.txt")
 merged_data <- tbl_df(rbind(train,test))
 ```
-The original table does not contain column headers that identify the measurements. Those are read from another file (features.txt) that is "cleaned up" by a series of character substitutions:
+The original table does not contain column headers that identify the measurements. Those are read from another file (features.txt) that is "cleaned up" by a series of character substitutions. The file CodeBook.md gives a succint description of the names of the headers. 
 ```R
 features <- read.table("features.txt",colClasses=c("numeric","character"))
 names(features) <- c("index","measurement")
